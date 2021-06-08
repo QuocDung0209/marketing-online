@@ -1,0 +1,7 @@
+/*================= Color ================*/
+$accent: #009ce0 !default;
+$error : #ac1f2d !default;
+$danger : $error !default;
+$primary: $accent !default;
+
+$hovered-bg : mix($primary, #ffffff, 30%);

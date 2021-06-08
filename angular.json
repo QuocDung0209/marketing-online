@@ -31,9 +31,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/assets/scss/all.scss",
+              "node_modules/font-awesome/css/font-awesome.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -107,5 +110,8 @@
       }
     }
   },
-  "defaultProject": "marketing-online"
+  "defaultProject": "marketing-online",
+  "cli": {
+    "analytics": "d76859d8-265f-4704-aee9-1995a2ebc20b"
+  }
 }
